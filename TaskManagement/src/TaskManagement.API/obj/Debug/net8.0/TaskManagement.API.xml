@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskManagement.API</name>
+    </assembly>
+    <members>
+        <member name="M:TaskManagement.API.Controllers.AuthController.Register(TaskManagement.Application.DTOs.RegisterRequest)">
+            <summary>Registers a new user account.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.AuthController.Login(TaskManagement.Application.DTOs.LoginRequest)">
+            <summary>Authenticates a user and returns JWT tokens.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.AuthController.RefreshToken(TaskManagement.Application.DTOs.RefreshTokenRequest)">
+            <summary>Refreshes the access token using a valid refresh token.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.AuthController.RevokeToken(TaskManagement.Application.DTOs.RefreshTokenRequest)">
+            <summary>Revokes a refresh token (logout).</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.TasksController.Create(TaskManagement.Application.DTOs.CreateTaskRequest)">
+            <summary>Creates a new task for the authenticated user.</summary>
+            <remarks>
+            Business rules:
+            - Duplicate task titles are rejected for the same user on the same day.
+            - Task is queued for background processing automatically.
+            </remarks>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.TasksController.GetById(System.Guid)">
+            <summary>Returns a specific task by ID. Results are cached in Redis for 5 minutes.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.TasksController.GetAll">
+            <summary>Returns all tasks belonging to the authenticated user, sorted by priority then date.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.TasksController.UpdateStatus(System.Guid,TaskManagement.Application.DTOs.UpdateTaskStatusRequest)">
+            <summary>Updates the status of a task. Invalidates the Redis cache entry.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.UsersController.GetMe">
+            <summary>Returns the currently authenticated user's profile.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.UsersController.GetAll">
+            <summary>[Admin] Returns all users.</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.UsersController.Create(TaskManagement.Application.DTOs.CreateUserRequest)">
+            <summary>[Admin] Creates a new user (can set role).</summary>
+        </member>
+        <member name="M:TaskManagement.API.Controllers.UsersController.Delete(System.Guid)">
+            <summary>[Admin] Soft-deletes a user.</summary>
+        </member>
+    </members>
+</doc>

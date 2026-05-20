@@ -1,0 +1,17 @@
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\bin\Debug\net8.0\TaskManagement.Application.deps.json
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\bin\Debug\net8.0\TaskManagement.Application.dll
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\bin\Debug\net8.0\TaskManagement.Application.pdb
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\bin\Debug\net8.0\TaskManagement.Domain.dll
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\bin\Debug\net8.0\TaskManagement.Domain.pdb
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.csproj.AssemblyReference.cache
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.AssemblyInfoInputs.cache
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.AssemblyInfo.cs
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.csproj.CoreCompileInputs.cache
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskMana.B5C26166.Up2Date
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.dll
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\refint\TaskManagement.Application.dll
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.pdb
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\ref\TaskManagement.Application.dll
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\bin\Debug\net8.0\TaskManagement.Application.runtimeconfig.json
+C:\Study\TaskManagement\TaskManagement\src\TaskManagement.Application\obj\Debug\net8.0\TaskManagement.Application.genruntimeconfig.cache
